@@ -2,6 +2,7 @@ from django.db import models
 
 # Create your models here.
 
+#teachers table
 class Teachers(models.Model):
     name=models.CharField(max_length=100)
     age=models.IntegerField()
